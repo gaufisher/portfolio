@@ -9,7 +9,7 @@ const Hero = () => {
       transition={{ duration: 1 }}
       className="flex flex-col items-center justify-center h-screen text-center bg-gray-100"
     >
-      <h1 className="text-5xl font-bold mb-4">Hi, I'm Greg Fisher</h1>
+      <h1 className="text-5xl font-bold mb-4">Hi, I&apos;m Greg Fisher</h1>
       <p className="text-xl text-gray-700 mb-6">
         A frontend focused fullstack engineer and mentor passionate about helping businesses scale.
       </p>

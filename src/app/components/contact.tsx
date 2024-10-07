@@ -1,8 +1,8 @@
 const Contact = () => {
     return (
       <section id="contact" className="py-12 bg-gray-50 text-center">
-        <h2 className="text-4xl font-semibold mb-6 text-gray-900">Let's Connect</h2>
-        <p className="mb-8 text-lg text-gray-700">I'm always open to discussing new projects or opportunities. Feel free to reach out through LinkedIn!</p>
+        <h2 className="text-4xl font-semibold mb-6 text-gray-900">Let&apos;s Connect</h2>
+        <p className="mb-8 text-lg text-gray-700">I&apos;m always open to discussing new projects or opportunities. Feel free to reach out through LinkedIn!</p>
         <a
           href="https://www.linkedin.com/in/gfishermentor"
           target="_blank"
