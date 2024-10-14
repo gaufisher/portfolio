@@ -71,8 +71,8 @@ const Projects = () => {
           >
             <h3 className="text-xl font-bold mb-2">{project.title}</h3>
             <p className="text-gray-700 mb-4">{project.description}</p>
-            <div className="flex space-x-2">
-              {project.techStack.slice(0,5).map((tech) => (
+            <div className="flex flex-wrap gap-2 mt-4">
+              {project.techStack.map((tech) => (
                 <span
                   key={tech}
                   className="bg-blue-100 text-blue-600 px-2 py-1 rounded-md text-sm"
